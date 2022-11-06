@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdb"
+    tools:context=".Dashboard">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/bottomnavradius"
+        app:itemIconTint="@drawable/navbariconcolor"
+        app:itemTextColor="@drawable/navbariconcolor"
+        app:menu="@menu/menu_bar" />
+
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="160dp"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="160dp"
+        android:text="Sophia Marcos"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="160dp"
+        android:text="Pet owner"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="160dp"
+        android:text="Bakekeng Central, Baguio City" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="160dp"
+        android:text="Bakekeng Central, Baguio City" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="260dp"
+        android:text="Nearby Veterinary"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:layout_width="342dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="200dp" />
+
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="453dp"
+        android:text="Recommended"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:layout_width="341dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp" />
+
+
+</RelativeLayout>

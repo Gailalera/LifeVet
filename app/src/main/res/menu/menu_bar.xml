@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/homebutton"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"/>
+
+
+    <item
+        android:id="@+id/stethoscope"
+        android:icon="@drawable/ic_baseline_eco_24"
+        android:title="Stethoscope"/>
+
+
+    <item
+        android:id="@+id/pets"
+        android:icon="@drawable/ic_baseline_pets_24"
+        android:title="Pets"/>
+
+    <item
+        android:id="@+id/messages"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Messages"/>
+
+
+
+
+</menu>
